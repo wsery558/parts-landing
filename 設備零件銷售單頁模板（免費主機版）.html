@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>XX工業｜設備零件銷售與到貨詢價</title>
+  <meta name="description" content="設備零件銷售｜現貨與客製採購｜到貨時程與詢價表單。採低維護、一頁式、行動裝置優化。" />
+  <meta property="og:title" content="XX工業｜設備零件銷售與到貨詢價" />
+  <meta property="og:description" content="熱門零件、品牌相容、快速出貨。線上表單立即洽詢。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1600&auto=format&fit=crop" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>⚙️</text></svg>">
+  <style>
+    :root{
+      --ink:#0F172A; --muted:#475569; --bg:#ffffff; --line:#E5E7EB; --brand:#2563EB; --brand-ink:#1E3A8A; --ok:#10B981; --warn:#F59E0B;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:"Noto Sans TC",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; color:var(--muted); background:var(--bg); line-height:1.7}
+    a{color:var(--brand); text-decoration:none}
+    header{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:20}
+    .wrap{max-width:1120px;margin-inline:auto;padding:0 20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .logo{display:flex;gap:10px;align-items:center;color:var(--ink);font-weight:700}
+    .logo small{color:var(--muted);font-weight:500}
+    .cta{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;background:var(--brand);color:#fff;font-weight:600}
+    .cta:hover{background:#1D4ED8}
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:center;padding:56px 0}
+    .hero h1{color:var(--ink);letter-spacing:-.02em;font-size:38px;margin:0 0 8px}
+    .hero p{margin:0 0 20px}
+    .hero .badges{display:flex;gap:10px;flex-wrap:wrap;margin:14px 0 0}
+    .badge{font-size:12px;padding:6px 10px;border:1px solid var(--line);border-radius:999px;color:var(--ink)}
+    .hero img{width:100%;height:360px;object-fit:cover;border-radius:16px;border:1px solid var(--line)}
+    section{padding:36px 0;border-top:1px solid var(--line)}
+    h2{color:var(--ink);letter-spacing:-.01em;margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{border:1px solid var(--line);border-radius:16px;padding:16px;background:#fff}
+    .card img{width:100%;height:160px;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+    .price{color:var(--ink);font-weight:700}
+    .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .kpi{padding:16px;border:1px dashed var(--line);border-radius:14px;background:#F8FAFC;text-align:center}
+    .kpi b{display:block;color:var(--ink);font-size:22px}
+    .list{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .list li{border:1px solid var(--line);border-radius:12px;padding:10px;background:#fff}
+    .note{font-size:13px;color:#6B7280}
+    iframe{width:100%;min-height:560px;border:0;border-radius:12px}
+    footer{padding:28px 0;color:#94A3B8}
+    .cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:1fr 1fr}.list,.cols{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <div class="logo">⚙️ XX工業 <small>設備零件｜現貨・客製採購</small></div>
+      <a class="cta" href="#contact">線上詢價</a>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Hero -->
+    <div class="hero">
+      <div>
+        <h1>工業設備零件｜熱門型號現貨，急單可洽</h1>
+        <p>支援台灣主流品牌與相容型號。提供<strong>到貨時程</strong>、<strong>報價單</strong>與<strong>相容建議</strong>。表單送出後，專員 24 小時內回覆。</p>
+        <div class="badges">
+          <span class="badge">現貨快出</span>
+          <span class="badge">相容建議</span>
+          <span class="badge">公司三聯式發票</span>
+          <span class="badge">LINE/Email 服務</span>
+        </div>
+        <p style="margin-top:16px" class="note">＊本頁為示範樣板：文字與價格為佔位，可直接替換。</p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=1600&auto=format&fit=crop" alt="工業零件展示"/>
+    </div>
+
+    <!-- Top KPIs / features -->
+    <section>
+      <h2>我們能幫你解決什麼？</h2>
+      <div class="kpis">
+        <div class="kpi"><b>48h</b> 標準出貨（現貨）</div>
+        <div class="kpi"><b>500+</b> 型號相容諮詢</div>
+        <div class="kpi"><b>98%</b> 準時交付率</div>
+        <div class="kpi"><b>24h</b> 報價回覆</div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section>
+      <h2 id="products">熱門零件</h2>
+      <div class="grid">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1581093588401-16fbdeab2435?q=80&w=1200&auto=format&fit=crop" alt="馬達軸承" />
+          <h3>高效率馬達軸承（6203ZZ 相容）</h3>
+          <p class="price">NT$ 320 起／顆</p>
+          <p class="note">耐溫 120°C｜高速等級 ABEC-3｜工業包裝</p>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1595433707802-6b2707d43f8f?q=80&w=1200&auto=format&fit=crop" alt="皮帶" />
+          <h3>同步皮帶（HTD 5M / 10M）</h3>
+          <p class="price">NT$ 180 起／條</p>
+          <p class="note">客製長度｜含皮帶輪組合價</p>
+        </article>
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1581091217129-983a7b934bf3?q=80&w=1200&auto=format&fit=crop" alt="感測器" />
+          <h3>接近開關 / 感測器（PNP/NPN）</h3>
+          <p class="price">NT$ 450 起／支</p>
+          <p class="note">IP67｜快速接頭｜對應主流PLC</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Advantages -->
+    <section>
+      <h2>為什麼選擇我們</h2>
+      <ul class="list">
+        <li><strong>相容諮詢：</strong>提供替代料號建議、庫存跨品牌比價。</li>
+        <li><strong>即時存貨：</strong>常用料維持庫存，急單支援台北/桃園自取。</li>
+        <li><strong>品質保固：</strong>非人為瑕疵 7 天換新，出貨全檢封裝。</li>
+        <li><strong>企業流程：</strong>三聯式發票、統編與到貨驗收配合。</li>
+      </ul>
+    </section>
+
+    <!-- Live News / Topics -->
+    <section id="news">
+      <h2>即時新聞與話題</h2>
+      <p class="note">此區會自動抓取公開 RSS（每 30 分鐘更新一次）。如遇來源限制，仍可改為手動連結清單。</p>
+      <div class="grid" id="news-list">
+        <!-- 動態載入 -->
+      </div>
+    </section>
+
+    <!-- Contact / Form -->
+    <section id="contact">
+      <h2>線上詢價 / 到貨時程</h2>
+      <p>填寫下列表單，我們將於 24 小時內回覆報價與交期。若有急件，請來電或於留言區標註 <strong>「急件」</strong>。</p>
+
+      <!-- ⭐ 將你的 Google 表單嵌入到下方 iframe src ⭐
+        操作：Google 表單 → 傳送 → 嵌入(</>) → 複製網址，貼到下行 src。
+      -->
+      <iframe src="" title="詢價表單（在此貼上你的 Google 表單嵌入網址）"></iframe>
+      <p class="note">若表單無法顯示，請改用 Email：sales@example.com 或 LINE：@yourlineid</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="cols">
+        <div>
+          <b style="color:var(--ink)">XX工業股份有限公司</b><br/>
+          統編 12345678｜台北市中山區○○路 123 號 8F<br/>
+          服務時間 09:30–18:30（週一～週五）
+        </div>
+        <div>
+          客服 Email：sales@example.com｜電話：(02) 1234-5678<br/>
+          © <span id="y"></span> XX INDUSTRIAL. All rights reserved.
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+  <script>
+    (function(){
+      var sources = [
+        { name: 'Google News：工業自動化', url: 'https://news.google.com/rss/search?q=%E5%B7%A5%E6%A5%AD%E8%87%AA%E5%8B%95%E5%8C%96+OR+%E8%A8%AD%E5%82%99%E9%9B%B6%E4%BB%B6&hl=zh-TW&gl=TW&ceid=TW:zh-Hant' },
+        { name: '經濟日報 產業', url: 'https://money.udn.com/rssfeed/news/1001/5591/5594?ch=money' },
+        { name: '工商時報 產業', url: 'https://www.chinatimes.com/rss/clicks/260204' }
+      ];
+      var list = document.getElementById('news-list');
+      function esc(s){return (s||'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c];});}
+      function card(item){
+        var html = '';
+        html += '<article class="card">';
+        html += '<h3 style="margin:0 0 6px;color:var(--ink);font-size:18px;line-height:1.4">';
+        html += '<a target="_blank" rel="noopener" href="'+esc(item.link)+'">'+esc(item.title)+'</a>';
+        html += '</h3>';
+        html += '<p class="note">'+esc(item.source)+'｜'+item.pubDate.toLocaleString('zh-TW')+'</p>';
+        html += '</article>';
+        return html;
+      }
+      function fetchRSS(src){
+        var url = 'https://api.allorigins.win/raw?url=' + encodeURIComponent(src.url);
+        return fetch(url).then(function(r){return r.text();}).then(function(xml){
+          var doc = new window.DOMParser().parseFromString(xml,'text/xml');
+          var items = Array.prototype.slice.call(doc.querySelectorAll('item'),0).slice(0,6);
+          return items.map(function(it){
+            return {
+              title: (it.querySelector('title')||{}).textContent || '（無標題）',
+              link: (it.querySelector('link')||{}).textContent || '#',
+              pubDate: new Date((it.querySelector('pubDate')||{}).textContent || Date.now()),
+              source: src.name
+            };
+          });
+        });
+      }
+      function render(){
+        list.innerHTML = '<div class="note">讀取中…</div>';
+        Promise.allSettled(sources.map(fetchRSS)).then(function(results){
+          var merged = [];
+          results.forEach(function(r){ if(r.status==='fulfilled'){ merged = merged.concat(r.value);} });
+          merged.sort(function(a,b){ return b.pubDate - a.pubDate; });
+          var top = merged.slice(0,9);
+          list.innerHTML = top.map(card).join('');
+        }).catch(function(){
+          list.innerHTML = '<div class="note">擷取失敗，可改為手動連結清單。</div>';
+        });
+      }
+      render();
+      setInterval(render, 30*60*1000);
+    })();
+  </script>
+</body>
+</html>
